@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body, button, input, textarea {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     body {
