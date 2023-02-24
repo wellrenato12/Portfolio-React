@@ -26,13 +26,13 @@ export function Experience({ timeWorked, office, company, description}: Experien
                 <p>{company}</p>
                 {toggle ? (
                 <button onClick={HandleShowContent}>
-                    <CaretDown size={32} />
+                    <CaretDown size={34} />
                 </button>
                 ) : (
                 <>
                     <span>{description}</span>
                     <button onClick={HandleShowContent}>
-                        <CaretUp size={32} />
+                        <CaretUp size={34} />
                     </button>
                 </>
                 )}

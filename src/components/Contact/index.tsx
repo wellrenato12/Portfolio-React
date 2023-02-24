@@ -5,21 +5,21 @@ import { Envelope, WhatsappLogo, LinkedinLogo, ArrowCircleRight   } from "phosph
 
 const typesOfContacts = [
     {
-        icon: () => <Envelope size={32} />,
+        icon: () => <Envelope size={35} />,
         name: 'Email',
         content: 'well.renato@hotmail.com',
         description: 'Escreva-me',
         link: 'mailto:well.renato@hotmail.com',
     },
     {
-        icon: () => <WhatsappLogo size={32} />,
+        icon: () => <WhatsappLogo size={35} />,
         name: 'WhatsApp',
         content: '(19)98882-4825',
         description: 'Escreva-me',
         link: 'https://wa.me/5519988824825',
     },
     {
-        icon: () => <LinkedinLogo size={32} />,
+        icon: () => <LinkedinLogo size={35} />,
         name: 'LinkedIn',
         content: 'linkedin.com/in/wellington-albino-015184177/',
         description: 'Escreva-me',

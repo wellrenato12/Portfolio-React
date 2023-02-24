@@ -8,19 +8,19 @@ export function Home() {
             <Presentation>
                 <Icons>
                     <a href="https://www.instagram.com/wellrenato12/" target="__blank">
-                        <InstagramLogo size={24} />
+                        <InstagramLogo size={32} />
                     </a>
                     <a href="https://www.linkedin.com/in/wellington-albino-015184177/" target="__blank">
-                        <LinkedinLogo size={24} />
+                        <LinkedinLogo size={32} />
                     </a>
                     <a href="https://github.com/wellrenato12" target="__blank">
-                        <GithubLogo size={24} />
+                        <GithubLogo size={32} />
                     </a>
                 </Icons>
                 <PresentationInfo>
                     <h1>
                         <span>Wellington Renato</span>
-                        <HandWaving size={32} />
+                        <HandWaving size={42} />
                     </h1>
                     <div>
                         <hr />

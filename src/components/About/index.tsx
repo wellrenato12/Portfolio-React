@@ -2,7 +2,7 @@ import { FileArrowDown } from "phosphor-react";
 import { AlignText } from "../ListProjects/styles";
 import { Experience } from "./Experience";
 import { CardFormation } from "./Formation";
-import { AboutContainer, AboutIntroduction, ContainerExperience, ContainerFormation, DownloadCv, ExperienceGrid, FormationGrid, Title, } from "./styles";
+import { AboutContainer, AboutIntroduction, ContainerExperience, ContainerFormation, DownloadCv, ExperienceGrid, FormationGrid } from "./styles";
 
 const experiences = [
     {
@@ -84,7 +84,7 @@ export function About() {
                         <a href="https://drive.google.com/file/d/1DGx29CLzMOPSmAmsL-juR6rW2o_JlYuB/view?usp=sharing" target="__blank">
                             <DownloadCv>
                                 Ver Currículo
-                                <FileArrowDown size={24} />
+                                <FileArrowDown size={32} />
                             </DownloadCv>
                         </a>
                     </FormationGrid>

@@ -13,6 +13,10 @@ export const AlignText = styled.div`
 
     margin-bottom: 3rem;
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
     p {
         color: ${props => props.theme["gray-300"]};
     }

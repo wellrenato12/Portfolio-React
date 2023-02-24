@@ -40,10 +40,6 @@ export const ContainerFormation = styled.div`
     gap: 2rem;
 `
 
-export const Title = styled.div`
-
-`
-
 export const ExperienceGrid = styled.div`
     display: grid;
     grid-template-columns: 1fr;
@@ -74,6 +70,7 @@ export const DownloadCv = styled.button`
     justify-content: center;
     gap: .5rem;
     transition: all .5s;
+    font-size: 1rem;
 
     &:hover {
         box-shadow: 0 0 1rem ${props => props.theme["black-900"]};

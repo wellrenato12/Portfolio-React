@@ -14,7 +14,7 @@ export const WebContainer = styled.header`
         justify-content: space-between;
         align-items: center;
 
-        height: 3rem;
+        height: 5rem;
         margin: auto;
         padding: 2rem;
         max-width: 1376px;
@@ -25,6 +25,7 @@ export const WebContainer = styled.header`
 
         a {
             cursor: pointer;
+            font-size: 1.25rem;
         }
 
         div {

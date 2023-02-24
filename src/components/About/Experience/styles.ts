@@ -18,20 +18,18 @@ export const CardExperience = styled.div`
     background-color: ${props => props.theme.white};
     border-radius: 12px;
     border: 2px solid ${props => props.theme["gray-200"]};
-    font-size: 0.75rem;
+    font-size: .75rem;
     text-align: center;
-    width: 300px;
-    max-height: 330px;
-
-    display: flex;
-    justify-content: flex-start;
-    padding: 1rem;
+    width: 400px;
+    max-height: 350px;
+    padding: 1.5rem;
 
     p {
         padding: .5rem;
+        font-size: .875rem;
 
         strong {
-            font-size: 14px;
+            font-size: 1rem;
         }
     }
 
@@ -43,5 +41,9 @@ export const CardExperience = styled.div`
 
     button {
         background-color: ${props => props.theme.white};
+    }
+
+    @media only screen and (max-width: 550px) {
+        width: 320px;
     }
 `

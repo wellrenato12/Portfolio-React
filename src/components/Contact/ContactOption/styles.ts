@@ -9,16 +9,20 @@ export const ContactOptionContainer = styled.div`
     border: 2px solid ${props => props.theme["gray-200"]};
     border-radius: 12px;
     padding: 1rem 2rem;
+    
+    strong {
+        margin-top: .75rem;
+    }
 
     p {
         text-align: center;
-        font-size: .75rem;
-        margin: .25rem;
+        font-size: .875rem;
+        margin: 1rem;
     }
 
     a {
         margin-top: .5rem;
-        font-size: .75rem;
+        font-size: 1rem;
     }
 
 `

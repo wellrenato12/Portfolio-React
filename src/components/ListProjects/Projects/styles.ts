@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-    height: 470px;
-    width: 350px;
+    height: 500px;
+    width: 400px;
     margin: 2rem auto;
     padding: 1rem;
     border-radius: 12px;
@@ -11,6 +11,11 @@ export const ProjectContainer = styled.div`
 
     h2 {
         margin-bottom: 1rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        width: 320px;
+        height: 420px;
     }
 `
 

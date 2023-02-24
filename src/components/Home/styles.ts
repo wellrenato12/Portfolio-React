@@ -12,6 +12,10 @@ export const HomeContainer = styled.div`
     @media only screen and (max-width: 850px) {
         flex-direction: column;
     }
+
+    @media only screen and (max-width: 550px) {
+        text-align: center
+    }
 `
 
 export const Presentation = styled.div`
@@ -32,7 +36,7 @@ export const PresentationInfo = styled.div`
     max-width: 646px;
 
     h1 {
-        font-size: 42px;
+        font-size: 3rem;
 
         span {
             padding-right: .5rem;
@@ -44,16 +48,17 @@ export const PresentationInfo = styled.div`
         align-items: center;
 
         hr {
-            width: 80px;
+            width: 100px;
         }
 
         h3 {
+            font-size: 1.5rem;
             margin-left: 1rem;
         }
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
         width: 400px;
     }
 
@@ -61,10 +66,11 @@ export const PresentationInfo = styled.div`
         display: flex;
         align-items: center;
         gap: .5rem;
-        width: 160px;
+        width: 180px;
         padding: 1rem 2rem;
         margin-top: 1rem;
         border-radius: 14px;
+        font-size: 1rem;
         background-color: ${props => props.theme["gray-700"]};
         color: ${props => props.theme["gray-100"]};
         transition: all .5s;
@@ -81,13 +87,19 @@ export const PresentationInfo = styled.div`
         }
 
         div {
+            padding: 0 3rem;
             h3 {
                 font-size: 1rem;
             }
         }
 
         p {
+            padding: 0 3rem;
             font-size: .75rem;
+        }
+
+        a {
+            margin: auto;
         }
     }
 `

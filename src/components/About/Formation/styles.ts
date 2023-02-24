@@ -11,15 +11,16 @@ export const CardFormationContainer = styled.div`
     font-size: 0.75rem;
     text-align: center;
     width: 200px;
-    height: 165px;
+    height: 200px;
 
     padding: 1rem;
 
     p {
         padding: .5rem;
+        font-size: .875rem;
 
         strong {
-            font-size: 14px;
+            font-size: 1rem;
         }
     }
 

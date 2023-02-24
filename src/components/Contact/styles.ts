@@ -45,7 +45,7 @@ export const Message = styled.div`
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 400px;
+        width: 500px;
         gap: 1rem;
         
         input {
@@ -120,6 +120,7 @@ export const Message = styled.div`
             color: ${props => props.theme.white};
             width: 250px;
             transition: all .5s;
+            font-size: 1rem;
 
             &:hover {
                 box-shadow: 0 0 1rem ${props => props.theme["black-900"]};

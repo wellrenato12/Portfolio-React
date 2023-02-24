@@ -6,7 +6,7 @@ export const SkillsContainer = styled.div`
     align-items: center;
 
     max-width: 1376px;
-    margin: 5rem auto;
+    margin: 10rem auto;
 
     p {
         color: ${props => props.theme["gray-300"]};
