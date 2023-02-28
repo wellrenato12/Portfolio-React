@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 420px;
     width: 400px;
     margin: 2rem auto;
     padding: 1rem;
@@ -15,7 +19,6 @@ export const ProjectContainer = styled.div`
 
     @media only screen and (max-width: 550px) {
         width: 320px;
-        height: 420px;
     }
 `
 
@@ -27,6 +30,12 @@ export const Container = styled.div`
 
     img {
         border-radius: 12px;
+        height: 200px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.25rem;
     }
 
     span {
@@ -34,6 +43,7 @@ export const Container = styled.div`
             display: flex;
             align-items: center;
             gap: .25rem;
+            font-weight: bold;
         }
     }
 `

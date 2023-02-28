@@ -21,7 +21,7 @@ const typesOfContacts = [
     {
         icon: () => <LinkedinLogo size={35} />,
         name: 'LinkedIn',
-        content: 'linkedin.com/in/wellington-albino-015184177/',
+        content: 'linkedin.com',
         description: 'Escreva-me',
         link: 'https://www.linkedin.com/in/wellington-albino-015184177/',
     },

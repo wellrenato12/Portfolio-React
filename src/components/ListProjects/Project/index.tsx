@@ -2,15 +2,23 @@ import { ArrowRight } from "phosphor-react";
 import { Container, ProjectContainer } from "./styles";
 import devFinance from '../../../assets/imgProjects/dev-finance.jpg'
 
-export function Project() {
+interface ProjectProps {
+    name: string;
+    projectImage: string;
+    altText: string;
+    description: string;
+    link: string;
+}
+
+export function Project({ name, projectImage, altText, description, link }: ProjectProps) {
     return (
         <ProjectContainer>
-            <h2>Nome projeto</h2>
+            <h2>{name}</h2>
             <Container>
-                <img src={devFinance} alt="Imagem de projeto" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src={projectImage} alt={altText} />
+                <p>{description}</p>
                 <span>
-                    <a href="#">
+                    <a href={link} target="__blank">
                         Veja
                         <ArrowRight size={20} />
                     </a>
