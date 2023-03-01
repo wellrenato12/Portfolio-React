@@ -16,7 +16,7 @@ export function CardFormation({ course, institution, link }: FormationProps) {
             </p>
             <p>{institution}</p>
             <a href={link} target="__blank">
-                <CloudArrowDown size={32} />
+                <CloudArrowDown size={34} />
             </a>
         </CardFormationContainer>
     )

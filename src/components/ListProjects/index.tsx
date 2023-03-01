@@ -14,8 +14,16 @@ import Supertrunfo from '../../assets/imgProjects/supertrunfo.jpg'
 import JogoDaVelha from '../../assets/imgProjects/jogo-da-velha.jpg'
 import PortfolioAntigo from '../../assets/imgProjects/portfolio-antigo.jpg'
 import Workshop from '../../assets/imgProjects/workshop.jpg'
+import Quiz from '../../assets/imgProjects/quiz-futebol.jpg'
 
 const projects = [
+    {
+        name: "Quiz Futebol",
+        projectImage: Quiz,
+        altText: "Quiz Futebol",
+        description: "Projeto desenvolvido para fazer uma brincadeira entre amigos.",
+        link: "https://well-quiz-futebol.netlify.app/",
+    },
     {
         name: "Coffee Delivery",
         projectImage: CoffeeDelivery,
