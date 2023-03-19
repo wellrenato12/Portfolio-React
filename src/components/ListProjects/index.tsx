@@ -15,8 +15,16 @@ import JogoDaVelha from '../../assets/imgProjects/jogo-da-velha.jpg'
 import PortfolioAntigo from '../../assets/imgProjects/portfolio-antigo.jpg'
 import Workshop from '../../assets/imgProjects/workshop.jpg'
 import Quiz from '../../assets/imgProjects/quiz-futebol.jpg'
+import DtMoney from '../../assets/imgProjects/dt-money.jpg'
 
 const projects = [
+    {
+        name: "DT Money",
+        projectImage: DtMoney,
+        altText: "DT Money",
+        description: "Projeto desenvolvido no terceiro módulo do Ignite da Rocketseat.",
+        link: "https://well-dtmoney-ignite.netlify.app/",
+    },
     {
         name: "Quiz Futebol",
         projectImage: Quiz,
