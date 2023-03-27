@@ -16,8 +16,16 @@ import PortfolioAntigo from '../../assets/imgProjects/portfolio-antigo.jpg'
 import Workshop from '../../assets/imgProjects/workshop.jpg'
 import Quiz from '../../assets/imgProjects/quiz-futebol.jpg'
 import DtMoney from '../../assets/imgProjects/dt-money.png'
+import GitHubBlog from '../../assets/imgProjects/github-blog.png'
 
 const projects = [
+    {
+        name: "GitHub Blog",
+        projectImage: GitHubBlog,
+        altText: "GitHub Blog",
+        description: "Projeto desenvolvido no terceiro desafio do Ignite da Rocketseat.",
+        link: "https://well-github-blog.netlify.app/",
+    },
     {
         name: "DT Money",
         projectImage: DtMoney,
