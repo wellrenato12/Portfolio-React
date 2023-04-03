@@ -1,6 +1,4 @@
-import { ArrowRight } from "phosphor-react";
 import { Container, ProjectContainer } from "./styles";
-import devFinance from '../../../assets/imgProjects/dev-finance.jpg'
 
 interface ProjectProps {
     name: string;
@@ -8,9 +6,10 @@ interface ProjectProps {
     altText: string;
     description: string;
     link: string;
+    github: string;
 }
 
-export function Project({ name, projectImage, altText, description, link }: ProjectProps) {
+export function Project({ name, projectImage, altText, description, link, github }: ProjectProps) {
     return (
         <ProjectContainer>
             <h2>{name}</h2>
@@ -19,8 +18,10 @@ export function Project({ name, projectImage, altText, description, link }: Proj
                 <p>{description}</p>
                 <span>
                     <a href={link} target="__blank">
-                        Veja
-                        <ArrowRight size={20} />
+                        Site
+                    </a>
+                    <a href={github} target="__blank">
+                        Github
                     </a>
                 </span>
             </Container>

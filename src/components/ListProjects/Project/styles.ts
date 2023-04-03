@@ -39,11 +39,17 @@ export const Container = styled.div`
     }
 
     span {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        
         a {
             display: flex;
             align-items: center;
             gap: .25rem;
             font-weight: bold;
+            font-size: 1.25rem;
         }
     }
 `

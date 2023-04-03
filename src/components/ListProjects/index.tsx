@@ -17,14 +17,24 @@ import Workshop from '../../assets/imgProjects/workshop.jpg'
 import Quiz from '../../assets/imgProjects/quiz-futebol.jpg'
 import DtMoney from '../../assets/imgProjects/dt-money.png'
 import GitHubBlog from '../../assets/imgProjects/github-blog.png'
+import IgniteShop from '../../assets/imgProjects/ignite-shop.png'
 
 const projects = [
+    {
+        name: "Ignite Shop",
+        projectImage: IgniteShop,
+        altText: "Ignite Shop",
+        description: "Projeto desenvolvido no quarto módulo do Ignite da Rocketseat.",
+        link: "https://well-ignite-shop.netlify.app/",
+        github: "https://github.com/wellrenato12/Modulo04-Ignite",
+    },
     {
         name: "GitHub Blog",
         projectImage: GitHubBlog,
         altText: "GitHub Blog",
         description: "Projeto desenvolvido no terceiro desafio do Ignite da Rocketseat.",
         link: "https://well-github-blog.netlify.app/",
+        github: "https://github.com/wellrenato12/Desafio03-Ignite",
     },
     {
         name: "DT Money",
@@ -32,6 +42,7 @@ const projects = [
         altText: "DT Money",
         description: "Projeto desenvolvido no terceiro módulo do Ignite da Rocketseat.",
         link: "https://well-dtmoney-ignite.netlify.app/",
+        github: "https://github.com/wellrenato12/Modulo03-Ignite",
     },
     {
         name: "Quiz Futebol",
@@ -39,6 +50,7 @@ const projects = [
         altText: "Quiz Futebol",
         description: "Projeto desenvolvido para fazer uma brincadeira entre amigos.",
         link: "https://well-quiz-futebol.netlify.app/",
+        github: "https://github.com/wellrenato12/Quiz-Futebol",
     },
     {
         name: "Coffee Delivery",
@@ -46,6 +58,7 @@ const projects = [
         altText: "Coffee Delivery",
         description: "Projeto desenvolvido no segundo desafio do Ignite da Rocketseat.",
         link: "https://well-coffee-delivery.netlify.app/",
+        github: "https://github.com/wellrenato12/Desafio02-Ignite",
     },
     {
         name: "Ignite Timer",
@@ -53,13 +66,7 @@ const projects = [
         altText: "Ignite Timer",
         description: "Projeto desenvolvido no segundo módulo do Ignite da Rocketseat.",
         link: "https://well-timer-ignite.netlify.app/",
-    },
-    {
-        name: "Blog Ignite",
-        projectImage: BlogIgnite,
-        altText: "Blog Ignite",
-        description: "Projeto desenvolvido no primeiro módulo do Ignite da Rocketseat.",
-        link: "https://well-blog-ignite.netlify.app/",
+        github: "https://github.com/wellrenato12/Modulo02-Ignite",
     },
     {
         name: "Todo List",
@@ -67,6 +74,15 @@ const projects = [
         altText: "Todo List",
         description: "Projeto desenvolvido no primeiro desafio do Ignite da Rocketseat.",
         link: "https://well-todo-list.netlify.app/",
+        github: "https://github.com/wellrenato12/Desafio01-Ignite",
+    },
+    {
+        name: "Ignite Feed",
+        projectImage: BlogIgnite,
+        altText: "Ignite Feed",
+        description: "Projeto desenvolvido no primeiro módulo do Ignite da Rocketseat.",
+        link: "https://well-blog-ignite.netlify.app/",
+        github: "https://github.com/wellrenato12/Modulo01-Ignite",
     },
     {
         name: "Lista de Presença",
@@ -74,6 +90,7 @@ const projects = [
         altText: "Lista de Presença",
         description: "Projeto desenvolvido na Rocketseat para entender alguns conceitos básicos do ReactJS.",
         link: "https://well-lista-presenca.netlify.app/",
+        github: "https://github.com/wellrenato12/Lista-de-presenca",
     },
     {
         name: "DevFinance",
@@ -81,6 +98,7 @@ const projects = [
         altText: "Dev Finance",
         description: "Projeto desenvolvido na maratona Discover da Rocketseat.",
         link: "https://well-dev-finance.netlify.app/",
+        github: "https://github.com/wellrenato12/Maratona-Discover",
     },
     {
         name: "TonyTendas",
@@ -88,6 +106,7 @@ const projects = [
         altText: "Tony Tendas",
         description: "Projeto desenvolvido para meu tio ter mais um meio de divulgação do seu trabalho.",
         link: "https://tony-tendas.netlify.app/",
+        github: "https://github.com/wellrenato12/TonyTendas",
     },
     {
         name: "Beauty Boss",
@@ -95,6 +114,7 @@ const projects = [
         altText: "beauty boss",
         description: "Projeto desenvolvido para uma amiga que está começando na carreira de design e maquiagem.",
         link: "https://beautyboss.netlify.app/",
+        github: "https://github.com/wellrenato12/BeautyBossDark",
     },
     {
         name: "Power Notebook",
@@ -102,6 +122,7 @@ const projects = [
         altText: "Power Notebook",
         description: "Projeto desenvolvido para um amigo fazer a venda de seus notebooks.",
         link: "https://well-gaming-store.netlify.app/",
+        github: "https://github.com/wellrenato12/GamingPcStore",
     },
     {
         name: "Tela de Login",
@@ -109,6 +130,7 @@ const projects = [
         altText: "Login",
         description: "Tela simples para login e cadastro de usuário.",
         link: "https://well-tela-login.netlify.app/",
+        github: "https://github.com/wellrenato12/Tela-de-Login",
     },
     {
         name: "Jogo da Velha",
@@ -116,6 +138,7 @@ const projects = [
         altText: "Jogo da Velha",
         description: "Jogo desenvolvido no curso do ProgramadorBR.",
         link: "https://well-jogo-da-velha.netlify.app/game.html",
+        github: "https://github.com/wellrenato12/Jogo-da-Velha",
     },
     {
         name: "Jogo Super Trunfo",
@@ -123,6 +146,7 @@ const projects = [
         altText: "Super Trunfo",
         description: "Projeto desenvolvido na imersão Dev da Alura.",
         link: "https://well-supertrunfo.netlify.app/",
+        github: "https://github.com/wellrenato12/ProjetoAlura",
     },
     {
         name: "Workshop",
@@ -130,6 +154,7 @@ const projects = [
         altText: "Workshop",
         description: "Projeto desenvolvido no curso do ProgramadorBR.",
         link: "https://well-pagina-captura.netlify.app/",
+        github: "https://github.com/wellrenato12/Pagina-de-Captura",
     },
     {
         name: "Portfólio Antigo",
@@ -137,6 +162,7 @@ const projects = [
         altText: "Portfolio",
         description: "Projeto desenvolvido para me aprensentar e mostrar meus projetos.",
         link: "https://portf-dev-well.netlify.app/",
+        github: "https://github.com/wellrenato12/Portfolio",
     },
 ]
 
@@ -156,6 +182,7 @@ export function ListProjects() {
                                 altText={project.altText}
                                 description={project.description}
                                 link={project.link}
+                                github={project.github}
                             />
                 })}
             </ListProjectsGrid>
