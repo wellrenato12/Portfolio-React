@@ -18,8 +18,17 @@ import Quiz from '../../assets/imgProjects/quiz-futebol.jpg'
 import DtMoney from '../../assets/imgProjects/dt-money.png'
 import GitHubBlog from '../../assets/imgProjects/github-blog.png'
 import IgniteShop from '../../assets/imgProjects/ignite-shop.png'
+import DesignSystem from '../../assets/imgProjects/design-system.png'
 
 const projects = [
+    {
+        name: "Ignite - Design System",
+        projectImage: DesignSystem,
+        altText: "Design System",
+        description: "Projeto desenvolvido no quinto módulo do Ignite da Rocketseat e já concluído o desafio no mesmo repositório.",
+        link: "https://wellrenato12.github.io/Modulo05-Ignite/?path=/story/home--page",
+        github: "https://github.com/wellrenato12/Modulo05-Ignite",
+    },
     {
         name: "Ignite Shop",
         projectImage: IgniteShop,
