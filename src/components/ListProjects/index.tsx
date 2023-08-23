@@ -19,8 +19,26 @@ import DtMoney from '../../assets/imgProjects/dt-money.png'
 import GitHubBlog from '../../assets/imgProjects/github-blog.png'
 import IgniteShop from '../../assets/imgProjects/ignite-shop.png'
 import DesignSystem from '../../assets/imgProjects/design-system.png'
+import IgniteCall from '../../assets/imgProjects/ignite-call.png'
+import ReduxZustand from '../../assets/imgProjects/redux-zustand.png'
 
 const projects = [
+    {
+        name: "React Redux e Zustand",
+        projectImage: ReduxZustand,
+        altText: "React Redux e Zustand",
+        description: "Projeto desenvolvido no sétimo módulo do Ignite da Rocketseat.",
+        link: "https://modulo07-ignite.vercel.app/",
+        github: "https://github.com/wellrenato12/Modulo07-Ignite",
+    },
+    {
+        name: "Ignite Call",
+        projectImage: IgniteCall,
+        altText: "Ignite Call",
+        description: "Projeto desenvolvido no sexto módulo do Ignite da Rocketseat.",
+        link: "https://06-ignite-call-kappa.vercel.app/",
+        github: "https://github.com/wellrenato12/Modulo06-Ignite",
+    },
     {
         name: "Ignite - Design System",
         projectImage: DesignSystem,

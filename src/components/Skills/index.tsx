@@ -1,5 +1,6 @@
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge } from 'react-icons/di';
-import { SiJavascript, SiTypescript } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si';
+import { RxStitchesLogo } from 'react-icons/rx'
 import { AlignText } from '../ListProjects/styles';
 import { Container, Skill, SkillsContainer } from './styles';
 
@@ -32,8 +33,24 @@ export function Skills() {
                     <p>Typescript</p>
                 </Skill>
                 <Skill>
+                    <SiNextdotjs size={72} color="#18181b" />
+                    <p>Next.js</p>
+                </Skill>
+                <Skill>
                     <DiGithubBadge size={72} color="#18181b" />
                     <p>GitHub</p>
+                </Skill>
+                <Skill>
+                    <SiTailwindcss size={72} color="#25c8f5" />
+                    <p>Tailwind Css</p>
+                </Skill>
+                <Skill>
+                    <SiStyledcomponents size={72} color="#de50b8" />
+                    <p>Styled Components</p>
+                </Skill>
+                <Skill>
+                    <RxStitchesLogo size={72} color="#18181b" />
+                    <p>Stitches</p>
                 </Skill>
             </Container>
         </SkillsContainer>
