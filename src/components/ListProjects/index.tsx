@@ -21,8 +21,17 @@ import IgniteShop from '../../assets/imgProjects/ignite-shop.png'
 import DesignSystem from '../../assets/imgProjects/design-system.png'
 import IgniteCall from '../../assets/imgProjects/ignite-call.png'
 import ReduxZustand from '../../assets/imgProjects/redux-zustand.png'
+import PaquetaCalcados from '../../assets/imgProjects/PaquetaCalcados.png'
 
 const projects = [
+    {
+        name: "Paquetá Calçados",
+        projectImage: PaquetaCalcados,
+        altText: "Paquetá Calçados",
+        description: "Desafio do https://www.brchallenges.com/ resolvido.",
+        link: "https://paqueta-calcados-gamma.vercel.app/",
+        github: "https://github.com/wellrenato12/PaquetaCalcados",
+    },
     {
         name: "React Redux e Zustand",
         projectImage: ReduxZustand,
