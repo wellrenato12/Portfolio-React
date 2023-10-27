@@ -62,22 +62,26 @@ export const PresentationInfo = styled.div`
         width: 400px;
     }
 
-    button {
-        display: flex;
-        align-items: center;
-        gap: .5rem;
+    a {
         width: 180px;
-        padding: 1rem 2rem;
-        margin-top: 1rem;
-        border-radius: 14px;
-        font-size: 1rem;
-        background-color: ${props => props.theme["gray-700"]};
-        color: ${props => props.theme["gray-100"]};
-        transition: all .5s;
 
-        &:hover {
-            box-shadow: 0 0 1rem ${props => props.theme["black-900"]};
+        button {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            width: 180px;
+            padding: 1rem 2rem;
+            margin-top: 1rem;
+            border-radius: 14px;
+            font-size: 1rem;
+            background-color: ${props => props.theme["gray-700"]};
+            color: ${props => props.theme["gray-100"]};
             transition: all .5s;
+
+            &:hover {
+                box-shadow: 0 0 1rem ${props => props.theme["black-900"]};
+                transition: all .5s;
+            }
         }
     }
 
