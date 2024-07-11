@@ -22,6 +22,9 @@ import DesignSystem from '../../assets/imgProjects/design-system.png'
 import IgniteCall from '../../assets/imgProjects/ignite-call.png'
 import ReduxZustand from '../../assets/imgProjects/redux-zustand.png'
 import PaquetaCalcados from '../../assets/imgProjects/PaquetaCalcados.png'
+import Blizzard from '../../assets/imgProjects/blizzard.png'
+import EmpireBurguer from '../../assets/imgProjects/empireBurguer.png'
+import PassInWeb from '../../assets/imgProjects/passIn.png'
 
 const projects = [
     {
@@ -31,6 +34,38 @@ const projects = [
         description: "Desafio do https://www.brchallenges.com/ resolvido.",
         link: "https://paqueta-calcados-gamma.vercel.app/",
         github: "https://github.com/wellrenato12/PaquetaCalcados",
+    },
+    {
+        name: "Empire Burguer",
+        projectImage: EmpireBurguer,
+        altText: "Empire Burguer",
+        description: "Desafio do https://www.brchallenges.com/ resolvido.",
+        link: "https://main--empireburguer.netlify.app/",
+        github: "https://github.com/wellrenato12/EmpireBurguer",
+    },
+    {
+        name: "Blizzard",
+        projectImage: Blizzard,
+        altText: "Blizzard",
+        description: "Desafio do https://www.brchallenges.com/ resolvido.",
+        link: "https://main--blizzardgame.netlify.app/",
+        github: "https://github.com/wellrenato12/Blizzard",
+    },
+    {
+        name: "Coffee Delivery",
+        projectImage: CoffeeDelivery,
+        altText: "Coffee Delivery",
+        description: "Projeto desenvolvido no segundo desafio do Ignite da Rocketseat.",
+        link: "https://well-coffee-delivery.netlify.app/",
+        github: "https://github.com/wellrenato12/Desafio02-Ignite",
+    },
+    {
+        name: "Pass In Web",
+        projectImage: PassInWeb,
+        altText: "Pass In Web",
+        description: "Projeto desenvolvido no evento da Rocketseat.",
+        link: "https://main--pass-in-web-event.netlify.app/",
+        github: "https://github.com/wellrenato12/Pass-In-Web",
     },
     {
         name: "React Redux e Zustand",
@@ -87,14 +122,6 @@ const projects = [
         description: "Projeto desenvolvido para fazer uma brincadeira entre amigos.",
         link: "https://well-quiz-futebol.netlify.app/",
         github: "https://github.com/wellrenato12/Quiz-Futebol",
-    },
-    {
-        name: "Coffee Delivery",
-        projectImage: CoffeeDelivery,
-        altText: "Coffee Delivery",
-        description: "Projeto desenvolvido no segundo desafio do Ignite da Rocketseat.",
-        link: "https://well-coffee-delivery.netlify.app/",
-        github: "https://github.com/wellrenato12/Desafio02-Ignite",
     },
     {
         name: "Ignite Timer",

@@ -73,7 +73,7 @@ export const DownloadCv = styled.button`
     font-size: 1rem;
 
     &:hover {
-        box-shadow: 0 0 1rem ${props => props.theme["black-900"]};
+        background-color: ${props => props.theme["gray-500"]};
         transition: all .5s;
     }
 `

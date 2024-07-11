@@ -123,8 +123,7 @@ export const Message = styled.div`
             font-size: 1rem;
 
             &:hover {
-                box-shadow: 0 0 1rem ${props => props.theme["black-900"]};
-                gap: .5rem;
+                background-color: ${props => props.theme["gray-500"]};
                 transition: all .5s;
             }
         }
