@@ -81,7 +81,7 @@ export function About() {
                                 link={formation.link}
                             />
                         })}
-                        <a href="https://drive.google.com/file/d/1qCaYKeYBKVJD03u4MNFaOU8fi64kovXq/view?usp=share_link" target="__blank">
+                        <a href="https://drive.google.com/file/d/128fvWc910mtrlMGKyvkvDoDA6KKsupW_/view?usp=drive_link" target="__blank">
                             <DownloadCv>
                                 Ver Currículo
                                 <FileArrowDown size={32} />
